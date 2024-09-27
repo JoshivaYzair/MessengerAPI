@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerServer", "MessengerServer.csproj", "{7D3FA4C2-1EA4-4A54-A64C-F1E365B3D833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerEntity", "..\MessengerEntity\MessengerEntity.csproj", "{66AC57DB-4FBD-48BB-A1DE-200E35DEACE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerService", "..\MessengerService\MessengerService.csproj", "{674403DD-D9C7-4084-8434-363CCBC25EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerPersistency", "..\MessengerPersistency\MessengerPersistency.csproj", "{C302E9E7-4D32-46C2-B145-608530AE2712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{7D3FA4C2-1EA4-4A54-A64C-F1E365B3D833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D3FA4C2-1EA4-4A54-A64C-F1E365B3D833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D3FA4C2-1EA4-4A54-A64C-F1E365B3D833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AC57DB-4FBD-48BB-A1DE-200E35DEACE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AC57DB-4FBD-48BB-A1DE-200E35DEACE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AC57DB-4FBD-48BB-A1DE-200E35DEACE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AC57DB-4FBD-48BB-A1DE-200E35DEACE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674403DD-D9C7-4084-8434-363CCBC25EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674403DD-D9C7-4084-8434-363CCBC25EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674403DD-D9C7-4084-8434-363CCBC25EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674403DD-D9C7-4084-8434-363CCBC25EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C302E9E7-4D32-46C2-B145-608530AE2712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C302E9E7-4D32-46C2-B145-608530AE2712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C302E9E7-4D32-46C2-B145-608530AE2712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C302E9E7-4D32-46C2-B145-608530AE2712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
