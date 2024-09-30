@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,12 @@ namespace MessengerEntity.Entity
 {
     public class User
     {
-        public required string Email { get; set; } 
+        public required string Email { get; set; }
 
         public required string Password { get; set; }
 
         public ICollection<string>? Chats { get; set; }
-        
+
         public string? Phone {  get; set; }
 
         public DateTime? DateCreated { get; set; }

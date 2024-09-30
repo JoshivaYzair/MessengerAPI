@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +15,11 @@ namespace MessengerEntity.Entity
 
         public string ChatName { get; set; } = "New chat";
 
-        public string? Description { get; set; } 
+        public string? Description { get; set; }
 
         public string? GroupPic { get; set; }
 
-        public bool IsGroup { get; set; }   
+        public bool IsGroup { get; set; }
 
         public DateTime DateCreated { get; set; } = DateTime.Now;
 

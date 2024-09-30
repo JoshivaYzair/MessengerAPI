@@ -15,4 +15,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MessengerEntity\MessengerEntity.csproj" />
+    <ProjectReference Include="..\MessengerPersistency\MessengerPersistency.csproj" />
+    <ProjectReference Include="..\MessengerService\MessengerService.csproj" />
+  </ItemGroup>
+
 </Project>
